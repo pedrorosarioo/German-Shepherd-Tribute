@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body{
+  height:100%;
+  margin:0px;
+}
+
+.bg{ 
+  background:     url("http://ozon4life.com/data/out/63/image-159354693.jpg"); 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn-primary{
+  margin: 0px;
+  background-color: black;
+  border-color: #ffcc66;;
+  color: #ffcc66;
+}
+
+nav.navbar{
+  display:block;
+  background-color: black;
+  padding:0px;
+  margin:-1px;
+  opacity: 0.9;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  width: 100%;
+}
+
+nav.navbar li{
+  display:inline-block;
+  margin:4px 4px 0px 0px;
+}
+
+.fontemenu{
+  font-weight: bolder;
+}
+
+.conteiner-fluid{
+  background-color: rgba(255,204,102,.8);
+  padding-bottom: 150px;
+  padding-top: 15px;
+  margin: -2px 100px 50px 100px;
+  height: 1700px;
+}
+h1{
+  margin-top: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+div.sobre{
+  margin: 0px 150px 30px 150px;
+  display: none;
+}
+
+.caracteristics{
+  margin: 0px 150px 30px 150px;
+  display: block;
+}
+
+.depoiment{
+   margin: 0px 150px 30px 150px;
+   display: block;
+}
+
+.imagens{
+  display: block;
+  margin-top: 30px;
+  border-box: 3px solid black;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 30px;
+  border-radius: 9px;
+  box-shadow: 1px 1px 6px black;
+}
+
+.front-paper{
+  border-radius: 10px;
+}
+
+span.highlights{
+  font-weight: bolder;
+}
+
+.legenda{
+  text-align: center;
+  display: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 130%;
+}
+
+.aspas{
+  font-weight: bolder;
+}
+
+.dep{
+  font-size: 150%;
+  font-weight: bolder;
+}
+
+.assinado{
+  float: right;
+  display: block;
+  font-size: 130%;
+  color: rgb(78,78,78);
+  font-style: italic;
+  margin-right: 15px;
+}
+
+.learn{
+  margin-top: 80px;
+  text-align: center;
+  font-size: 170%;
+}
+
+a{
+  text-decoration:underline;
+  color: blue;
+}
+
+.btn{
+  float: left;
+  position: relative;
+  display: block;
+}
