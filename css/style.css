@@ -14,11 +14,13 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .btn-primary{
   margin: 0px;
   background-color: black;
   border-color: #ffcc66;;
   color: #ffcc66;
+  height: 38px;
 }
 
 nav.navbar{
@@ -26,11 +28,12 @@ nav.navbar{
   background-color: black;
   padding:0px;
   margin:-1px;
-  opacity: 0.9;
+  opacity: 0.7;
   position: fixed;
   z-index: 99;
   top: 0;
   width: 100%;
+  height: 47px;
 }
 
 nav.navbar li{
@@ -45,7 +48,7 @@ nav.navbar li{
 .conteiner-fluid{
   background-color: rgba(255,204,102,.8);
   padding-bottom: 150px;
-  padding-top: 15px;
+  padding-top: 40px;
   margin: -2px 100px 50px 100px;
   height: 1700px;
 }
