@@ -59,11 +59,27 @@ $("#bt4").mouseover(function(){
   });
 });
 
+$("#bt1").click(function(){
+  $("html, body").animate(
+    { scrollTop: "0px" }
+);
+});
+
+$("#bt2").click(function(){
+  $("html, body").animate(
+    { scrollTop: "370px" }
+);
+});
+
+
+$("#bt3").click(function(){
+  $("html, body").animate(
+    { scrollTop: "650px" }
+);
+});
+
 $("#bt4").click(function(){
-    var x=$(window).scrollTop();
-     if(x==0){
-      $('html, body').animate({
-        scrollTop: parseInt(($("dep").offset().top
-      ))}, 1000);
-     }
+  $("html, body").animate(
+    { scrollTop: "1150px" }
+);
 });

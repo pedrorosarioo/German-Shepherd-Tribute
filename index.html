@@ -63,6 +63,16 @@
   
 
     <script  src="js/index.js"></script>
+    <script>
+const btn4 = document.querySelector('#bt4');
+btn4.addEventListener('click', (event)=>{
+  event.preventDefault();
+  let session = document.querySelector('.dep');
+  session.scrollIntoView({
+    behavior: smooth;
+  });
+});
+</script>
 
 
 
