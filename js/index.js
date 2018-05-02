@@ -5,12 +5,12 @@ $(window).scroll(function() {
   }else{
     $(".sobre").fadeOut(800);
   }
-  if(x>600){
+  if(x>400){
     $(".caracteristics").fadeIn(800);
   }else{
     $(".caracteristics").fadeOut(800);
   }
-  if(x>1100){
+  if(x>900){
     $(".depoiment").fadeIn(800);
   }else{
     $(".depoiment").fadeOut(800);
@@ -61,25 +61,25 @@ $("#bt4").mouseover(function(){
 
 $("#bt1").click(function(){
   $("html, body").animate(
-    { scrollTop: "0px" }
+    { scrollTop: "0px" },1200
 );
 });
 
 $("#bt2").click(function(){
   $("html, body").animate(
-    { scrollTop: "370px" }
+    { scrollTop: "440px" },1200
 );
 });
 
 
 $("#bt3").click(function(){
   $("html, body").animate(
-    { scrollTop: "650px" }
+    { scrollTop: "920px" },1200
 );
 });
 
 $("#bt4").click(function(){
   $("html, body").animate(
-    { scrollTop: "1150px" }
+    { scrollTop: "1220px" },1200
 );
 });

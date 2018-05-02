@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 body{
-  height:100%;
+  width:100%;
+  max-width: 1400px;
+  height: 100%;
   margin:0px;
 }
 
@@ -50,7 +52,10 @@ nav.navbar li{
   padding-bottom: 150px;
   padding-top: 40px;
   margin: -2px 100px 50px 100px;
-  height: 1700px;
+  height: 100%;
+  width: 100%;
+  max-height: 1700px;
+  max-width: 1100px;
 }
 h1{
   margin-top: 30px;
@@ -85,10 +90,13 @@ div.sobre{
   margin-bottom: 30px;
   border-radius: 9px;
   box-shadow: 1px 1px 6px black;
+  width: 100%;
+  max-width: 800px;
 }
 
 .front-paper{
   border-radius: 10px;
+  width: 100%;
 }
 
 span.highlights{
